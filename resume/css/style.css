@@ -1,0 +1,62 @@
+body{
+	color: white;
+	background-color: #1a0000;
+
+	font-family: Arial;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 1.3em;
+	margin: 0px;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	color: red;
+}
+
+a:active{
+	color: green;
+}
+
+
+.container{
+	width: 80%;
+	margin: auto;
+}
+
+/*.p-box{
+	width: 184px;
+	height: 395px;
+	border: 1px solid black;
+	margin-top: 30px;
+	position: relative;
+	background-position: center;
+	background-image: url('../images/me3.jpg');
+}*/
+
+
+
+.categories{
+
+	border:1px #ccc solid;
+	padding:10px;
+	border-radius: 15px;
+}
+
+.categories h2{
+	text-align: center;
+}
+
+.categories ul{
+	list-style: square;
+}
+
+.categories li{
+	padding-bottom: 6px;
+	/*border-bottom: dotted 1px #333; */
+	list-style-image: url('../images/image2.png');
+}
